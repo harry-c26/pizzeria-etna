@@ -1,0 +1,30 @@
+/* logo and menu styling */
+
+.headerborder {
+    border-bottom: 4px solid black; 
+    overflow: hidden;
+}
+
+#logo {
+    padding-left: 20px;
+    font-size: 200%; 
+}
+
+#menu {
+    font-size: 150%;
+    letter-spacing: 2px;
+}
+
+#menu, #logo {
+    line-height: 75px; 
+}
+
+#menu li {
+    list-style-type: none;
+    float: right;
+    margin-right: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+}
