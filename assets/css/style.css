@@ -54,3 +54,62 @@ h1 {
 .active {
     border-bottom: 1px solid #000000;
 }
+
+/* section padding */
+
+section {
+    height: 500px;
+}
+
+/* footer styling */
+
+footer {
+    border-top: 3px solid #000000;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#flag-green {
+    background-color: #008C45;
+    float: left;
+    height: 100px; 
+    width: 33.33%;
+    }   
+
+#flag-white {
+    background-color: #F4F9FF;
+    height: 100px; 
+    width: 33.33%; 
+    }
+
+#flag-red {
+    background-color: #CD212A;
+    float: right;
+    height: 100px; 
+    width: 33.33%; 
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
