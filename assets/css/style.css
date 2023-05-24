@@ -68,11 +68,11 @@ h1 {
 
 section {
     height: 600px;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 #etna-image {
-    background: url('..images/etna-image.jpg') no-repeat center center; 
+    background-image: url("../assets/images/etna-image.jpg") no-repeat center center; 
     }
 
 /* styling for menu layout */
@@ -92,27 +92,32 @@ section {
     ". . .";
 }
 
+#starters {
+    text-align: center;
+    text-transform: bold uppercase;
+    text-decoration-line: underline;
+    margin: none;  
+}
+
 .Starters { 
     grid-area: Starters; 
-    background-color: blue;
     float: left;
     border: 1px solid black;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 400px;
     padding: 10px;
     margin: 10px;
 }
 .Starters-Image { 
     grid-area: Starters-Image; 
-    background-color: orange;
+    background-image: url("../images/caprese-salad.jpg") no-repeat center center;
     float: right;
     border: 1px solid black;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 400px;
     padding: 10px;
     margin: 10px;
 }
-
 
 /* footer styling */
 
