@@ -27,8 +27,6 @@ h1 {
 
 #logo {
     padding-top: 5px;
-    /* font-size: 300%; 
-    text-transform: uppercase;  */
     float: left;  
 }
 
@@ -72,13 +70,22 @@ section {
 }
 
 #etna-image {
-    background-image: url("../assets/images/etna-image.jpg") no-repeat center center; 
+    background-image: url('../images/etna-image.jpg') no-repeat center center; 
     }
 
 /* styling for menu layout */
 
-#menu-page {
-    height: 100%;
+#menu-page {   
+    display: grid;
+    grid-template-rows:    repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around; 
+    }
+
+#etna-menu {
+    text-align: center;
+    text-transform: bold, uppercase;
+    text-decoration-line: underline;
 }
 
 .menu-headers {
@@ -92,6 +99,10 @@ section {
     padding: 10px;
     text-align: center;
 }
+
+/* .starters-image {
+    float: right;
+} */
 
 .pasta { 
     padding: 10px;
@@ -115,6 +126,16 @@ section {
 
 h3 {
     text-transform: uppercase; 
+}
+
+/* styling for booking page */
+
+#booking {
+    text-align: center;
+}
+
+.book-table {
+    text-decoration-line: underline;
 }
 
 /* footer styling */
