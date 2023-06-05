@@ -19,7 +19,7 @@ body {
     overflow: hidden; 
 }
 
-h1 {
+h1, h2 {
     font-family: Open Sans, sans-serif;
     font-weight: 600;
     color: #000000;
@@ -69,17 +69,18 @@ section {
     /* overflow: hidden; */
 }
 
-#etna-image {
+/* #etna-image {
     background-image: url('../images/etna-image.jpg') no-repeat center center; 
-    }
+    } */
 
 /* styling for menu layout */
 
 #menu-page {   
     display: grid;
-    grid-template-rows: (3, 200px 1400px 200px);
+    grid-template-rows: no-repeat(3, 200px 1400px 200px);
     grid-template-columns: repeat(2, 1fr);
-    justify-content: space-around; 
+    justify-content: space-around;
+    align-content: center; 
     }
 
 #etna-menu {
@@ -101,12 +102,12 @@ section {
 }
 
 .starters-image {
-    
-}
-
-.pasta { 
-    padding: 10px;
-    text-align: center;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .pizza { 
@@ -114,14 +115,27 @@ section {
     text-align: center;
 }
 
+.pizza-image {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .desserts { 
     padding: 10px;
     text-align: center;
 }
 
-.drinks { 
-    padding: 10px;
-    text-align: center;
+.desserts-image {
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h3 {
@@ -179,7 +193,7 @@ footer {
 
 .social-networks {
     text-align: center;
-    padding-left: 0;
+    padding: 15px;
 }
 
 .social-networks>li {
