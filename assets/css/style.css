@@ -115,7 +115,25 @@ section {
     text-align: center;
 }
 
-.pizza-image {
+.margherita {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mediterranea {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.piccantina {
     width: 400px;
     height: 400px;
     object-fit: contain;
