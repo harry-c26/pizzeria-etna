@@ -90,8 +90,9 @@ section {
     float: left;
     width: 33%;
     margin-left: 10%;
-    padding-right: 10%;
-    margin-top: 20px;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -104,6 +105,7 @@ section {
 .about-text>p {
     color: white;
     padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 125%;
 }
 
@@ -118,7 +120,7 @@ section {
 .tripadvisor-image {
     float: right;
     height: 500px;
-    margin-right: 10%;
+    margin-right: 15%;
     bottom: 100px;
 }
 
@@ -127,6 +129,36 @@ section {
     height: 1200px; 
     width: 100%; 
     }
+
+.details-contact {
+    float: right;
+    color: white;
+    width: 33%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.details-contact>h2 {
+    color: white;
+    text-transform: bold;
+    font-size: 200%;
+}
+
+.details-contact>p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 125%;
+}
+
+.location-map {
+    float: left;
+    height: 500px;
+    margin-left: 15%;
+    bottom: 100px; 
+}
 
 /* #etna-image {
     background-image: url('../images/etna-image.jpg') no-repeat center center; 
