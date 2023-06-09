@@ -168,7 +168,7 @@ section {
 
 #menu-page {   
     display: grid;
-    grid-template-rows: no-repeat(3, 200px 1400px 200px);
+    grid-template-rows: (6, 1fr);
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-around;
     align-content: center; 
@@ -187,11 +187,7 @@ section {
     margin: none;  
 }
 
-.starters {
-    width: 100%;
-}
-
-.starters-text { 
+.starters { 
     padding: 10px;
     text-align: center;
 }
@@ -205,18 +201,14 @@ section {
     margin-right: auto;
 }
 
-.pizza {
-    width: 100%;
-}
-
-.pizza-text { 
-    padding: 10px;
+.pizza-first, .pizza-second, .pizza-third, .pizza-fourth { 
+    padding: 60px 0px;
     text-align: center;
 }
 
 .margherita {
-    width: 450px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
     object-fit: fill;
     display: block;
     margin-left: auto;
@@ -224,8 +216,8 @@ section {
 }
 
 .mediterranea {
-    width: 450px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
     object-fit: fill;
     display: block;
     margin-left: auto;
@@ -233,19 +225,15 @@ section {
 }
 
 .piccantina {
-    width: 450px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
     object-fit: fill;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.desserts {
-    width: 100%;
-}
-
-.desserts-text { 
+.desserts { 
     padding: 10px;
     text-align: center;
 }
@@ -268,6 +256,8 @@ h3 {
 
 #aguilas-image {
     background: url('../images/aguilas.jpg') no-repeat center center; 
+    width: 100%;
+    height: auto;
     }
 
 /* styling for booking page */
@@ -275,10 +265,12 @@ h3 {
 #booking {
     text-align: center;
     color: white;
+    text-transform: bold;
 }
 
 #booking>h1 {
     color: white;
+    text-transform: bold;
 }
 
 .book-table {
