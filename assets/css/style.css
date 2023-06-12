@@ -233,6 +233,15 @@ section {
     margin-right: auto;
 }
 
+.norma {
+    width: 400px;
+    height: 400px;
+    object-fit: fill;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .desserts { 
     padding: 10px;
     text-align: center;
