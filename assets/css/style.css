@@ -56,6 +56,7 @@ h1 {
     list-style-type: none;
     float: right;
     padding: 15px;
+    display: block;
 }
 
 #menu a {
@@ -431,7 +432,7 @@ footer {
     }
 }
 
-/* For mobile screen sizes from 800px wide and down */
+/* For tablet screen sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
     
     /* homepage */
@@ -493,3 +494,34 @@ footer {
         text-align: center;
     }
 }
+
+/* For mobile screen sizes from 600px wide and down */
+@media screen and (max-width: 600px) {
+
+    /* homepage */
+    .tripadvisor-image {
+        display: none;
+    }
+
+    .location-map {
+        display: none; 
+    }
+
+    .about-text {
+        float: none;
+        width: 80%;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    .details-contact {
+        float: none;
+        width: 80%;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    /* menu */
+    .margherita, .mediterranea, .piccantina, .norma, .starters-image, .desserts-image {
+        display: none;
+    }
