@@ -509,19 +509,50 @@ footer {
 
     .about-text {
         float: none;
-        width: 80%;
-        padding: 10px;
-        margin: 20px;
+        width: 90%;
+        padding: 5%;
+        margin: 0;
     }
 
     .details-contact {
         float: none;
-        width: 80%;
-        padding: 10px;
-        margin: 20px;
+        width: 90%;
+        padding: 5%;
+        margin: 0;
     }
 
     /* menu */
-    .margherita, .mediterranea, .piccantina, .norma, .starters-image, .desserts-image {
-        display: none;
+
+    #menu-page {   
+        display: grid;
+        grid-template-rows: (12, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: space-around;
+        align-content: center; 
+        }
+
+    .margherita, .mediterranea, .piccantina, .norma {
+        width: 200px;
+        height: 200px;
+        padding: 45px 0px;
     }
+
+    #menu-page>h3 {
+        font-size: 80%;
+    }
+
+    #menu-page>p {
+        font-size: 80%;
+    }
+
+    .pizza-first { 
+        padding: 10px;
+        text-align: center;
+    }
+
+    .pizza-second, .pizza-third, .pizza-fourth { 
+        padding: 10px;
+        text-align: center;
+    }
+
+
