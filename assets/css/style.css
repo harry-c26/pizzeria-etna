@@ -165,7 +165,7 @@ section {
 
 #menu-page {   
     display: grid;
-    grid-template-rows: 6, 1fr;
+    grid-template-rows: 1fr;
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-around;
     align-content: center; 
@@ -173,13 +173,15 @@ section {
 
 #etna-menu {
     text-align: center;
-    font-weight: bold, uppercase;
+    font-weight: bold; 
+    text-transform: uppercase;
     text-decoration-line: underline;
 }
 
 .menu-headers {
     text-align: center;
-    font-weight: bold, uppercase;
+    font-weight: bold;
+    text-transform: uppercase;
     text-decoration-line: underline;
     margin: 0;  
 }
@@ -496,10 +498,10 @@ footer {
         clear: left;
         float: left;
     }
+}
 
 /* For mobile screen sizes from 600px wide and down */
 @media screen and (max-width: 600px) {
-
     /* homepage */
     .tripadvisor-image {
         display: none;
@@ -527,7 +529,7 @@ footer {
 
     #menu-page {   
         display: grid;
-        grid-template-rows: 12, 1fr;
+        grid-template-rows: 1fr;
         grid-template-columns: repeat(1, 1fr);
         justify-content: space-around;
         align-content: center; 
