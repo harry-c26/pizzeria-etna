@@ -268,22 +268,37 @@ h3 {
 /* background image for booking page */
 
 #aguilas-image {
-    background: url('../images/aguilas.jpg') no-repeat center center; 
+    position: relative; 
+    background: url('../images/aguilas.jpg') no-repeat center center;
+    height: 73vh;
     width: 100%;
-    height: auto;
-    }
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+#aguilas-image::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.15);
+}
 
 /* styling for booking page */
 
 #booking {
     text-align: center;
-    color: white;
-    font-weight: bold;
+    width: 100%;
+    color: black;
+    font-weight: 900;
 }
 
 #booking>h1 {
-    color: white;
-    font-weight: bold;
+    color: black;
+    font-weight: 900;
 }
 
 .book-table {
@@ -299,6 +314,7 @@ h3 {
 footer {
     border-top: 3px solid #000000;
     border-bottom: 3px solid #000000;
+    bottom: 0px;
 }
 
 .column {
