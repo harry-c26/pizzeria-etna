@@ -293,12 +293,12 @@ h3 {
     text-align: center;
     width: 100%;
     color: black;
-    font-weight: 900;
+    font-weight: 1200;
 }
 
 #booking>h1 {
     color: black;
-    font-weight: 900;
+    font-weight: 1200;
 }
 
 .book-table {
@@ -351,12 +351,10 @@ footer {
 
 .social-networks {
     text-align: center;
-    padding-top: 20px;
 }
 
 .social-networks>li {
     display: inline;
-    vertical-align: middle;
 }
 
 .social-networks i {
@@ -508,8 +506,8 @@ footer {
     }
 }
 
-/* For mobile screen sizes from 650px wide and down */
-@media screen and (max-width: 650px) {
+/* For mobile screen sizes from 660px wide and down */
+@media screen and (max-width: 660px) {
     #menu {
         clear: left;
         float: left;
