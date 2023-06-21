@@ -22,13 +22,13 @@ body {
 
 h2 {
     font-family: Playfair Display, sans-serif;
-    font-weight: 600;
+    font-weight: 800;
     color: #000000;
 }
 
 h1 {
     font-family: Playfair Display, sans-serif;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 200%;
     color: #000000;
 }
@@ -57,6 +57,7 @@ h1 {
     float: right;
     padding: 15px;
     display: block;
+    font-weight: 900;
 }
 
 #menu a {
@@ -97,7 +98,7 @@ section {
     text-align: center;
 }
 
-.about-text>h2 {
+.about-text>h1 {
     color: white;
     font-weight: bold;
     font-size: 200%; 
