@@ -57,6 +57,7 @@ h1 {
     float: right;
     padding: 15px;
     display: block;
+    /* display: inline-block; */
     font-weight: 900;
 }
 
@@ -294,12 +295,12 @@ h3 {
     text-align: center;
     width: 100%;
     color: black;
-    font-weight: 1200;
+    font-weight: 1000;
 }
 
 #booking>h1 {
     color: black;
-    font-weight: 1200;
+    font-weight: 1000;
 }
 
 .book-table {
@@ -462,7 +463,7 @@ footer {
     }
 
     .about-text>p {
-        font-size: 90%;
+        font-size: 80%;
     }
 
     .tripadvisor-image {
@@ -531,6 +532,10 @@ footer {
         width: 90%;
         padding: 5%;
         margin: 0;
+    }
+
+    .about-text>p {
+        font-size: 100%;
     }
 
     .details-contact {
