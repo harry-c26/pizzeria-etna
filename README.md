@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Pizzeria Etna
 Add in detail about what the website is about 
 =======
