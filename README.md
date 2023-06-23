@@ -106,6 +106,6 @@ shields.io badges
 
 * Improve the quality of the photos on the menu page
 * Add an ordering page for collections
-* Expand the home page with adjustments to the about us section with images of the owners and restuarant and adding an awards section for the ones they've received from Tripadvisor. 
+* Expand the home page with adjustments to the about us section with images of the owners and restuarant and adding an awards section for the ones they've received from Tripadvisor.
 
 
