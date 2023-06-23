@@ -74,7 +74,11 @@ shields.io badges
 
 ### Solved bugs
 
+* ...
+
 ### Unfixed bugs
+
+* There are no bugs with the site that I'm aware of. 
 
 ## Credits
 
@@ -93,9 +97,10 @@ shields.io badges
 * The background image on the booking page was taken from Pixabay - https://pixabay.com/photos/landscape-bay-beach-darling-clouds-5277781/
 * All other images were provided by the owners of Pizzeria Etna.
 
-### Mentor
+### Others to mention
 
-* A special thank you to Sheryl for the advice and points she gave me to look into flex box and flex grid as options for the menu page 
+* A special thank you to Sheryl for the advice and points she gave me to look into flex box and flex grid as options for the menu page
+* The README guide that Kera Cudmore put together was a great help as well - https://github.com/kera-cudmore/readme-examples#credits 
 
 ## Further development plans
 
