@@ -1,7 +1,7 @@
 # Pizzeria Etna Website
 Pizzeria Etna website's purpose is to improve overall awareness of the restaurant in the area to increase the number of visitors and to help it stand out from the competition. Many of the restaurants in or around Aguilas use Facebook instead of their own website. The website will allow users to find the restaurant, browse the menu and book a table. 
 
-Am I responsive screenshot and 
+Am I responsive screenshot
 
 View Pizzeria Etna on Github Pages ** github link **
 
