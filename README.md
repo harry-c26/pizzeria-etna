@@ -111,7 +111,7 @@ Lighthouse check:
 ### Others to mention
 
 * A special thank you to Sheryl for the advice and points she gave me to look into flex box and flex grid as options for the menu page
-* The README guide that Kera Cudmore put together was a great help as well - https://github.com/kera-cudmore/readme-examples#credits 
+* The [README guide](https://github.com/kera-cudmore/readme-examples#credits) that Kera Cudmore put together was a great help as well 
 
 ## Further development plans
 
