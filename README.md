@@ -98,7 +98,7 @@ Lighthouse check:
 * The code for the social media links was taken from the CI Love Running project
 * To fix the contrast between the text and background image on the booking page I used the code from [here](https://coder-coder.com/background-image-opacity/)
 * The code used to get the google map for the homepage was aided by [this Youtube video](https://www.youtube.com/watch?v=4U_AAGHzTok)
-* The colours for the Italian flag in the footer came from [here] (https://www.flagcolorcodes.com/italy#:~:text=What%20are%20the%20colors%20of,are%20green%2C%20white%20and%20red)
+* The colours for the Italian flag in the footer came from [here](https://www.flagcolorcodes.com/italy#:~:text=What%20are%20the%20colors%20of,are%20green%2C%20white%20and%20red)
 * The footer layout and styling was from the [w3schools how to site](https://www.w3schools.com/howto/howto_css_three_columns.asp)
 * To create the grid for the menu I used a [grid generator](https://grid.layoutit.com/) to give the base layout ready for styling and filling
 
