@@ -83,7 +83,7 @@ Lighthouse check:
 
 ### Solved bugs
 
-* ...
+* The main issue I had was the booking page having poor accessibility scoring. First I tried to adjust the code myself but none of the attempts worked so I looked online and found a fix as listed below. 
 
 ### Unfixed bugs
 
@@ -117,4 +117,8 @@ Lighthouse check:
 * Add an ordering page for collections
 * Expand the home page with adjustments to the about us section with images of the owners and restaurant and adding an awards section for the ones they've received from Tripadvisor.
 
+## Things I've learned from my project
 
+* Definitely start writing the README file at the start as part of my planning and use it as a working document.
+* Breaking the page down into smaller sections and fully completing the header before moving onto the body for example. 
+* Committing in smaller chunks and more often. 
