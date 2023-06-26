@@ -3,7 +3,11 @@ Pizzeria Etna website's purpose is to improve overall awareness of the restauran
 
 ![](documentation/responsive-checker.jpg)
 
+<<<<<<< HEAD
 ![View Pizzeria Etna on Github Pages](https://github.com/harry-c26/pizzeria-etna)
+=======
+[View Pizzeria Etna on Github Pages](https://github.com/harry-c26/pizzeria-etna)
+>>>>>>> 13169dd9ca6a99488b3e02e93a3dbe9259a8e615
 
 ##  Features
 
@@ -83,7 +87,11 @@ Lighthouse check:
 
 ### Solved bugs
 
+<<<<<<< HEAD
 * The main issue I had was the booking page having poor accessibility scoring. First I tried to adjust the code myself but none of the attempts worked so I looked online and found a fix as listed below.
+=======
+* The main issue I had was the booking page having poor accessibility scoring. First I tried to adjust the code myself but none of the attempts worked so I looked online and found a fix as listed below. 
+>>>>>>> 13169dd9ca6a99488b3e02e93a3dbe9259a8e615
 
 ### Unfixed bugs
 
