@@ -15,92 +15,92 @@
 
 <body>
     <header class="headerborder">
-            <a href="index.html">
-                <img src="assets/images/etna-logo.jpg" id="etna-logo" alt="Pizzeria Etna Logo" aria-label="Click to return to the homepage">
-            </a>
-            <nav>
-                <ul id="menu">
+        <a href="index.html">
+            <img src="assets/images/etna-logo.jpg" id="etna-logo" alt="Pizzeria Etna Logo" aria-label="Click to return to the homepage">
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="book.html" class="active" aria-label="Click to go to the book a table page">Book a table</a>
+                </li>
+                <li>
+                    <a href="menu.html" aria-label="Click to go to the menu page">Menu</a>
+                </li>
+                <li>
+                    <a href="index.html" aria-label="Click to go to the home page">Home</a>
+                </li>
+            </ul>
+        </nav> 
+    </header>
+    <section>
+        <div id="aguilas-image"> 
+            <form id="booking" autocomplete="on">
+                <h1 class="book-table">Book a table</h1><br>
+                    <div class="column">
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="Name" required class="box-border" aria-label="Enter name here"><br><br>
+
+                        <label for="email">Email address:</label><br>
+                        <input type="email" id="email" name="Email Address" required class="box-border" aria-label="Enter email address here"> <br><br>
+                    </div>
+            
+                    <div class="column">
+                        <label for="phone">Phone number:</label><br>
+                        <input type="tel" id="phone" name="Phone Number" required class="box-border" aria-label="Enter phone number here"> <br><br>
+
+                        <label for="date">Date and Time*:</label><br>
+                        <input type="datetime-local" id="date" name="Date" required class="box-border" aria-label="Enter booking date here"> <br><br>
+                        <button type="submit" class="box-border" aria-label="Click submit to send in your booking request">
+                            <strong>Submit</strong>
+                        </button>
+                    </div>
+
+                    <div class="column"><br>
+                        <label>Number of guests:</label><br>
+                        <label for="One">One</label>
+                        <input type="radio" id="One" name="guests" value="One" aria-label="Select to book a table for One"> 
+                        <label for="Two">Two</label>
+                        <input type="radio" id="Two" name="guests" value="Two" aria-label="Select to book a table for Two">
+                        <label for="Three">Three</label>
+                        <input type="radio" id="Three" name="guests" value="Three" aria-label="Select to book a table for Three">
+                        <label for="Four">Four</label>
+                        <input type="radio" id="Four" name="guests" value="Four" aria-label="Select to book a table for Four">
+                        <label for="Five">Five</label>
+                        <input type="radio" id="Five" name="guests" value="Five" aria-label="Select to book a table for Five">
+                        <label for="Six">Six</label> 
+                        <input type="radio" id="Six" name="guests" value="Six" aria-label="Select to book a table for Six"> <br><br>
+            
+                        If you have more than 6 guests please call us to book. <br><br>
+                    </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="column" id="flag-green"></div>
+            <div class="column" id="flag-white">
+                <ul class="social-networks">
                     <li>
-                        <a href="book.html" class="active" aria-label="Click to go to the book a table page">Book a table</a>
+                        <a href="https://www.facebook.com/people/Pizzer%C3%ADa-caf%C3%A9-bar-Etna/100063770011395/" target="_blank" rel="noopener"
+                            aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
                     </li>
                     <li>
-                        <a href="menu.html" aria-label="Click to go to the menu page">Menu</a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener"
+                            aria-label="Visit our Instrgram page (opens in a new tab)"><i
+                            class="fa-brands fa-instagram"></i></a>
                     </li>
                     <li>
-                        <a href="index.html" aria-label="Click to go to the home page">Home</a>
+                        <a href="https://www.tripadvisor.co.uk/Restaurant_Review-g804284-d13352425-Reviews-Pizzeria_Etna-Aguilas.html" target="_blank" rel="noopener"
+                            aria-label="Visit our Tripadvisor page (opens in a new tab)"><i class="fa fa-star"></i></a>
                     </li>
                 </ul>
-            </nav> 
-    </header>
-
-<section>
-    <div id="aguilas-image"> 
-        <form id="booking" autocomplete="on">
-            <h1 class="book-table">Book a table</h1><br>
-                <div class="column">
-                    <label for="name">Name:</label><br>
-                    <input type="text" id="name" name="Name" required class="box-border" aria-label="Enter name here"><br><br>
-
-                    <label for="email">Email address:</label><br>
-                    <input type="email" id="email" name="Email Address" required class="box-border" aria-label="Enter email address here"> <br><br>
-                </div>
-            
-                <div class="column">
-                    <label for="phone">Phone number:</label><br>
-                    <input type="tel" id="phone" name="Phone Number" required class="box-border" aria-label="Enter phone number here"> <br><br>
-
-                    <label for="date">Date and Time*:</label><br>
-                    <input type="datetime-local" id="date" name="Date" required class="box-border" aria-label="Enter booking date here"> <br><br>
-                    <button type="submit" class="box-border" aria-label="Click submit to send in your booking request">
-                        <strong>Submit</strong>
-                    </button>
-                </div>
-
-                <div class="column"><br>
-                    <label>Number of guests:</label><br>
-                    <label for="One">One</label>
-                    <input type="radio" id="One" name="guests" value="One" aria-label="Select to book a table for One"> 
-                    <label for="Two">Two</label>
-                    <input type="radio" id="Two" name="guests" value="Two" aria-label="Select to book a table for Two">
-                    <label for="Three">Three</label>
-                    <input type="radio" id="Three" name="guests" value="Three" aria-label="Select to book a table for Three">
-                    <label for="Four">Four</label>
-                    <input type="radio" id="Four" name="guests" value="Four" aria-label="Select to book a table for Four">
-                    <label for="Five">Five</label>
-                    <input type="radio" id="Five" name="guests" value="Five" aria-label="Select to book a table for Five">
-                    <label for="Six">Six</label> 
-                    <input type="radio" id="Six" name="guests" value="Six" aria-label="Select to book a table for Six"> <br><br>
-            
-                    If you have more than 6 guests please call us to book. <br><br>
-                </div>
-        </form>
-    </div>
-</section>
-
-<footer>
-    <div class="row">
-        <div class="column" id="flag-green"></div>
-        <div class="column" id="flag-white">
-            <ul class="social-networks">
-            <li>
-                <a href="https://www.facebook.com/people/Pizzer%C3%ADa-caf%C3%A9-bar-Etna/100063770011395/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instrgram page (opens in a new tab)"><i
-                        class="fa-brands fa-instagram"></i></a>
-            </li>
-            <li>
-                <a href="https://www.tripadvisor.co.uk/Restaurant_Review-g804284-d13352425-Reviews-Pizzeria_Etna-Aguilas.html" target="_blank" rel="noopener"
-                    aria-label="Visit our Tripadvisor page (opens in a new tab)"><i class="fa fa-star"></i></a>
-            </li>
-            </ul>
+            </div>
+            <div class="column" id="flag-red"></div>
         </div>
-        <div class="column" id="flag-red"></div>
-    </div>
-</footer>
+    </footer>
 <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/4401b114de.js" crossorigin="anonymous"></script> 
 </body>
+
 </html>
