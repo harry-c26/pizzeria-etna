@@ -165,6 +165,8 @@ section {
 
 /* styling for menu layout */
 
+/* Content credit 6. Used a grid generator site for the menu layout */
+
 #menu-page {   
     display: grid;
     grid-template-rows: 1fr;
@@ -269,6 +271,8 @@ h3 {
 
 /* background image for booking page */
 
+/* Content credit 2. Used opacity code to fix the background image section of the booking page */
+
 #aguilas-image {
     position: relative; 
     background: url('../images/aguilas.jpg') no-repeat center center;
@@ -312,6 +316,8 @@ h3 {
 }
 
 /* footer styling */
+
+/* Content credit 4 and 5. Used layout and styling from w3schools site. Used Italian flag colors from an online color source. */
 
 footer {
     border-top: 3px solid #000000;
