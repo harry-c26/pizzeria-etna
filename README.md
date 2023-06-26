@@ -5,8 +5,6 @@ Pizzeria Etna website's purpose is to improve overall awareness of the restauran
 
 [View Pizzeria Etna on Github Pages](https://github.com/harry-c26/pizzeria-etna)
 
-shields.io badges
-
 ##  Features
 
 ### Navigation
@@ -95,7 +93,7 @@ Lighthouse check:
 
 ### Content
 
-* The code for the social media links was taken from the CI Love Running project
+* The code for the social media links was taken from the [CI Love Running project](https://github.com/harry-c26/love-running)
 * To fix the contrast between the text and background image on the booking page I used the code from [here](https://coder-coder.com/background-image-opacity/)
 * The code used to get the google map for the homepage was aided by [this Youtube video](https://www.youtube.com/watch?v=4U_AAGHzTok)
 * The colours for the Italian flag in the footer came from [here](https://www.flagcolorcodes.com/italy#:~:text=What%20are%20the%20colors%20of,are%20green%2C%20white%20and%20red)
